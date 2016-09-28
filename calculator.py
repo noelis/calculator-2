@@ -19,5 +19,9 @@ while True:
 	elif tokens[0] == "*":
 		print multiply(int(tokens[1]), int(tokens[2]))
 	elif tokens[0] == "/":
-		print divide(int(tokens[1]), int(tokens[2]))	
+		print divide(int(tokens[1]), int(tokens[2]))
+	elif tokens[0] == "square":
+		print square(int(tokens[1]))	
+	elif tokens[0] == "cube":
+		print cube(int(tokens[1]))	
 
