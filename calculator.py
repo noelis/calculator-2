@@ -28,4 +28,5 @@ while True:
 		print power(int(tokens[1]), int(tokens[2]))	
 	elif tokens[0] == "mod":
 		print mod(int(tokens[1]), int(tokens[2]))	
-
+	elif tokens[0] == "quit" or tokens[0] == "q":
+		break
